@@ -5,7 +5,7 @@ import { IUseCase } from './IUseCase';
 
 class CarrosUseCase implements IUseCase {
     repo: IRepository;
-    carros : Carros ;
+    carros: Carros;
 
     constructor(repo: IRepository) {
         this.repo = repo;
